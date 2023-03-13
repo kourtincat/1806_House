@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: ecfce74382b1ee3428d4addefe5ae6fb
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Blanket_01
+    100002: Box_Type_1
+    100004: Box_Type_2
+    100006: Box_Type_3
+    100008: Box_Type_4
+    100010: Box_Type_5
+    100012: Box_Type_6
+    100014: //RootNode
+    100016: pCube1
+    100018: pCube13
+    100020: pCube14
+    100022: pCube15
+    100024: pCube16
+    100026: polySurface2
+    100028: Blanket_02
+    100030: Roll_1
+    100032: Roll_2
+    100034: Roll_3
+    100036: Roll_4
+    100038: Roll_5
+    100040: Roll_6
+    400000: Blanket_01
+    400002: Box_Type_1
+    400004: Box_Type_2
+    400006: Box_Type_3
+    400008: Box_Type_4
+    400010: Box_Type_5
+    400012: Box_Type_6
+    400014: //RootNode
+    400016: pCube1
+    400018: pCube13
+    400020: pCube14
+    400022: pCube15
+    400024: pCube16
+    400026: polySurface2
+    400028: Blanket_02
+    400030: Roll_1
+    400032: Roll_2
+    400034: Roll_3
+    400036: Roll_4
+    400038: Roll_5
+    400040: Roll_6
+    2100000: phong1
+    2100002: lambert1
+    2100004: phong2
+    2300000: Blanket_01
+    2300002: Box_Type_1
+    2300004: Box_Type_2
+    2300006: Box_Type_3
+    2300008: Box_Type_4
+    2300010: Box_Type_5
+    2300012: Box_Type_6
+    2300014: pCube1
+    2300016: pCube13
+    2300018: pCube14
+    2300020: pCube15
+    2300022: pCube16
+    2300024: polySurface2
+    2300026: Blanket_02
+    2300028: Roll_1
+    2300030: Roll_2
+    2300032: Roll_3
+    2300034: Roll_4
+    2300036: Roll_5
+    2300038: Roll_6
+    3300000: Blanket_01
+    3300002: Box_Type_1
+    3300004: Box_Type_2
+    3300006: Box_Type_3
+    3300008: Box_Type_4
+    3300010: Box_Type_5
+    3300012: Box_Type_6
+    3300014: pCube1
+    3300016: pCube13
+    3300018: pCube14
+    3300020: pCube15
+    3300022: pCube16
+    3300024: polySurface2
+    3300026: Blanket_02
+    3300028: Roll_1
+    3300030: Roll_2
+    3300032: Roll_3
+    3300034: Roll_4
+    3300036: Roll_5
+    3300038: Roll_6
+    4300000: pCube1
+    4300002: Box_Type_3
+    4300004: Box_Type_6
+    4300006: Box_Type_1
+    4300008: Box_Type_2
+    4300010: Box_Type_4
+    4300012: Box_Type_5
+    4300014: pCube13
+    4300016: pCube14
+    4300018: pCube15
+    4300020: pCube16
+    4300022: Blanket_01
+    4300024: polySurface2
+    4300026: Roll_1
+    4300028: Roll_2
+    4300030: Roll_3
+    4300032: Roll_4
+    4300034: Blanket_02
+    4300036: Roll_5
+    4300038: Roll_6
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Roll_4","Roll_3","Roll_2","Roll_1","Box_Type_6","Box_Type_5","Box_Type_4","Box_Type_3","Box_Type_2","Box_Type_1","Blanket_02","Blanket_01","Roll_6","Roll_5"],"padding":[26,20,23,17,13,21,18,18,31,25,13,13,26,21],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1752 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 0.97
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: f15c336556dd74f40aaca655f7767970, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 0
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 112000002, guid: b271f1df3d128d84d9ec8b691431791b,
+    type: 2}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &312634795
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 312634797}
+  - component: {fileID: 312634796}
+  m_Layer: 0
+  m_Name: '!ftraceLightmaps'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &312634796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 312634795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fa80e7116296f4eb4f49ec1544ee22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderSettingsBounces: 5
+  renderSettingsGISamples: 16
+  renderSettingsGIBackFaceWeight: 0
+  renderSettingsTileSize: 512
+  renderSettingsPriority: 2
+  renderSettingsTexelsPerUnit: 20
+  renderSettingsForceRefresh: 1
+  renderSettingsForceRebuildGeometry: 1
+  renderSettingsPerformRendering: 1
+  renderSettingsUserRenderMode: 0
+  renderSettingsDistanceShadowmask: 0
+  renderSettingsSettingsMode: 0
+  renderSettingsFixSeams: 1
+  renderSettingsDenoise: 1
+  renderSettingsDenoise2x: 0
+  renderSettingsEncode: 1
+  renderSettingsEncodeMode: 0
+  renderSettingsOverwriteWarning: 0
+  renderSettingsAutoAtlas: 1
+  renderSettingsUnwrapUVs: 1
+  renderSettingsMaxAutoResolution: 4096
+  renderSettingsMinAutoResolution: 16
+  renderSettingsUnloadScenes: 1
+  renderSettingsGILODMode: 0
+  renderSettingsGILODModeEnabled: 0
+  renderSettingsCheckOverlaps: 0
+  renderSettingsSkipOutOfBoundsUVs: 1
+  renderSettingsHackEmissiveBoost: 1
+  renderSettingsHackIndirectBoost: 1
+  renderSettingsTempPath: 
+  renderSettingsOutPath: BakeryLightmaps
+  renderSettingsUseScenePath: 0
+  renderSettingsHackAOIntensity: 0
+  renderSettingsHackAOSamples: 16
+  renderSettingsHackAORadius: 1
+  renderSettingsShowAOSettings: 0
+  renderSettingsShowTasks: 1
+  renderSettingsShowTasks2: 0
+  renderSettingsShowPaths: 1
+  renderSettingsShowNet: 1
+  renderSettingsOcclusionProbes: 0
+  renderSettingsTexelsPerMap: 0
+  renderSettingsTexelsColor: 1
+  renderSettingsTexelsMask: 1
+  renderSettingsTexelsDir: 1
+  renderSettingsShowDirWarning: 1
+  renderSettingsRenderDirMode: 0
+  renderSettingsShowCheckerSettings: 0
+  renderSettingsSamplesWarning: 1
+  renderSettingsPrefabWarning: 1
+  renderSettingsSplitByScene: 0
+  renderSettingsUVPaddingMax: 0
+  renderSettingsBeepOnFinish: 0
+  renderSettingsExportTerrainAsHeightmap: 1
+  renderSettingsRTXMode: 0
+  renderSettingsLightProbeMode: 0
+  renderSettingsClientMode: 0
+  renderSettingsServerAddress: 127.0.0.1
+  renderSettingsUnwrapper: 0
+  renderSettingsExportTerrainTrees: 0
+  renderSettingsShowPerf: 1
+  lastBakeTime: 91
+  enlightenWarningShown: 0
+  enlightenWarningShown2: 0
+  lightUIDs: 
+  lights: []
+  implicitGroups: []
+  implicitGroupedObjects: []
+  bounds:
+  - m_Center: {x: 0.9834533, y: 2.7248418, z: -2.49161}
+    m_Extent: {x: 7.2333364, y: 2.7251577, z: 6.7083983}
+  - m_Center: {x: 1.4307318, y: 2.7101536, z: -2.5309415}
+    m_Extent: {x: 6.6692696, y: 2.7398462, z: 6.669067}
+  - m_Center: {x: 0.9787135, y: 3.237799, z: -2.4275217}
+    m_Extent: {x: 7.2212877, y: 3.6020608, z: 6.789275}
+  hasEmissive: 010101
+  uvBuffOffsets: 
+  uvBuffLengths: 
+  uvSrcBuff: []
+  uvDestBuff: []
+  lmrIndicesOffsets: 
+  lmrIndicesLengths: 
+  lmrIndicesBuff: 
+  lmGroupLODResFlags: 
+  lmGroupMinLOD: 
+  lmGroupLODMatrix: 
+  serverGetFileList: []
+  lightmapHasColor: 010101
+  lightmapHasMask: 000000
+  lightmapHasDir: 000000
+  lightmapHasRNM: 000000
+  modifiedAssetPathList:
+  - Assets/Art/Models/Window_Sash_01.fbx
+  - Assets/Art/Models/Furniture/Switch_02.fbx
+  - Assets/Art/Models/Wall_2x2_Door.fbx
+  - Assets/Art/Models/Floor_2x2.fbx
+  - Assets/Art/Models/Furniture/Painting_07.fbx
+  - Assets/Art/Models/Wall_2x2.fbx
+  - Assets/Art/Models/Furniture/Cupboard_03.fbx
+  - Assets/Art/Models/Floor_1x1.fbx
+  - Assets/Art/Models/Floor_1x1_2.fbx
+  - Assets/Art/Models/Wall_Level_Joint_1.fbx
+  - Assets/Art/Models/Furniture/Book_Pack_01.fbx
+  - Assets/Art/Models/Wall_2x1.fbx
+  - Assets/Art/Models/Furniture/Plug_01.fbx
+  - Assets/Art/Models/Door_1_01.fbx
+  - Assets/Art/Models/Furniture/Photo_03.fbx
+  - Assets/Art/Models/Furniture/Bowl_01.fbx
+  - Assets/Art/Models/Wall_Joint_1.fbx
+  - Assets/Art/Models/Furniture/Table_02.fbx
+  - Assets/Art/Models/Furniture/Radiator_01.fbx
+  - Assets/Art/Models/Furniture/Jar_01.fbx
+  - Assets/Art/Models/Wall_2x1_2.fbx
+  - Assets/Art/Models/Furniture/Photo_04.fbx
+  - Assets/Art/Models/Kitchen/TeaBox_01_Art.fbx
+  - Assets/Art/Models/Furniture/Jar_08.fbx
+  - Assets/Art/Models/Column_001_Quarter.fbx
+  - Assets/Art/Models/Wall_2x1_Corner.fbx
+  - Assets/Art/Models/Furniture/Jar_06.fbx
+  - Assets/Art/Models/Furniture/Carpet_Round_01.fbx
+  - Assets/Art/Models/Furniture/Painting_09.fbx
+  - Assets/Art/Models/Column_001_Half.fbx
+  - Assets/Art/Models/Furniture/Photo_01.fbx
+  - Assets/Art/Models/Furniture/Hanger_01.fbx
+  - Assets/Art/Models/Furniture/Table_03.fbx
+  - Assets/Art/Models/Furniture/Shelf_01.fbx
+  - Assets/Art/Models/Wall_2x1_Door.fbx
+  - Assets/Art/Models/Wall_2x2_Window.fbx
+  - Assets/Art/Models/Wall_WindowMesh.fbx
+  - Assets/Art/Models/Hall/Stairs_01.fbx
+  - Assets/Art/Models/Entrance_2x1_House.fbx
+  - Assets/Art/Models/Furniture/Carpet_Rectangular_02.fbx
+  - Assets/Art/Models/Floor_1x2.fbx
+  - Assets/Art/Models/Kitchen/Spice_Recipent_01_Art.fbx
+  - Assets/Art/Models/Furniture/Glass_Champagne_01.fbx
+  - Assets/Art/Models/Kitchen/Fork_01.fbx
+  - Assets/Art/Models/Wall_2x1_Window.fbx
+  - Assets/Art/Models/Furniture/Chair_01.fbx
+  - Assets/Art/Models/Kitchen/Tool_Pale_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Mug_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Knife_01_Art.fbx
+  - Assets/Art/Models/Kitchen/CoffeeMaker_01.fbx
+  - Assets/Art/Models/Kitchen/Plate_01_Art.fbx
+  - Assets/Art/Models/Furniture/Bucket_01.fbx
+  - Assets/Art/Models/Kitchen/ToolDryer_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Knife_02_Art.fbx
+  - Assets/Art/Models/Furniture/Glass_Mix_01.fbx
+  - Assets/Art/Models/Furniture/Photo_02.fbx
+  - Assets/Art/Models/Kitchen/Kitchen_Worktop_Module_04.fbx
+  - Assets/Art/Models/Kitchen/Plate_Deep_01_art.fbx
+  - Assets/Art/Models/Furniture/Jar_09.fbx
+  - Assets/Art/Models/Kitchen/WaffleMaker_01_Art.fbx
+  - Assets/Art/Models/Kitchen/TableCloth_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Kitchen_Worktop_Module_02.fbx
+  - Assets/Art/Models/Furniture/Glass_Wine_01.fbx
+  - Assets/Art/Models/Furniture/Light_Lamp_02.fbx
+  - Assets/Art/Models/Furniture/Cupboard_01.fbx
+  - Assets/Art/Models/Furniture/Glass_Water_02.fbx
+  - Assets/Art/Models/Kitchen/Kitchen_Worktop_Module_05.fbx
+  - Assets/Art/Models/Kitchen/Spoon_02_Art.fbx
+  - Assets/Art/Models/Kitchen/Mug_Tall_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Bowl_04_Art.fbx
+  - Assets/Art/Models/Furniture/Fridge_01.fbx
+  - Assets/Art/Models/Kitchen/Tool_Fork_01_Art.fbx
+  - Assets/Art/Models/Kitchen/TeaCup_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Kitchen_Worktop_Module_01.fbx
+  - Assets/Art/Models/Kitchen/Moulin_Pepper_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Tool_Spoon_01_Art.fbx
+  - Assets/Art/Models/Furniture/Bottle_Wine_01.fbx
+  - Assets/Art/Models/Kitchen/Bowl_03_Art.fbx
+  - Assets/Art/Models/Kitchen/WallClock_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Teapot_01_Art.fbx
+  - Assets/Art/Models/Wall_2x2_Worktop.fbx
+  - Assets/Art/Models/Kitchen/Sponge_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Bowl_02_Art.fbx
+  - Assets/Art/Models/Kitchen/MicrofiberTowel_01_Art.fbx
+  - Assets/Art/Models/Kitchen/Bowl_01_Art.fbx
+  - Assets/Art/Models/Kitchen/ToolPot_01_Art.fbx
+  - Assets/Art/Models/Furniture/Cupboard_05.fbx
+  - Assets/Art/Models/Furniture/Carpet_Rectangular_03.fbx
+  - Assets/Art/Models/Kitchen/Spoon_01_Art.fbx
+  - Assets/Art/Models/Furniture/Stool_Stair_01.fbx
+  - Assets/Art/Models/Kitchen/Moulin_Salt_01_Art.fbx
+  - Assets/Art/Models/Wall_2x2_Door_Double.fbx
+  - Assets/Art/Models/Kitchen/Kitchen_Worktop_Module_03.fbx
+  - Assets/Art/Models/Furniture/Stool_Tall_01.fbx
+  - Assets/Art/Models/Furniture/Magazine_01.fbx
+  - Assets/Art/Models/Furniture/Painting_06.fbx
+  - Assets/Art/Models/Kitchen/Microwave_01_Art.fbx
+  - Assets/Art/Models/Kitchen/PaperRoll_Holder_01_Art.fbx
+  - Assets/Art/Models/Furniture/Jar_07.fbx
+  - Assets/Art/Models/Furniture/Grandfather_Clock_01.fbx
+  - Assets/Art/Models/Furniture/Light_Lamp_Ceiling_01.fbx
+  - Assets/Art/Models/Kitchen/Plate_Dryer_01_Art.fbx
+  - Assets/Art/Models/Kitchen/TeaCup_Plate_01_Art.fbx
+  - Assets/Art/Models/Furniture/Table_01.fbx
+  - Assets/Art/Models/Furniture/Painting_05.fbx
+  - Assets/Art/Models/Furniture/Painting_04.fbx
+  - Assets/Art/Models/Kitchen/Salt_Container_01_Art.fbx
+  - Assets/Art/Models/Furniture/Tool_Shelf.fbx
+  - Assets/Art/Models/Furniture/Glass_Water_01.fbx
+  - Assets/Art/Models/Bedroom/Tray_01_Art.fbx
+  - Assets/Art/Models/Furniture/Boxes_01.fbx
+  - Assets/Art/Models/Furniture/Painting_10.fbx
+  - Assets/Art/Models/Furniture/Painting_01.fbx
+  - Assets/Art/Models/Furniture/Painting_08.fbx
+  - Assets/Art/Models/Furniture/Painting_02.fbx
+  - Assets/Art/Models/Furniture/Jar_02.fbx
+  - Assets/Art/Models/Furniture/Jar_05.fbx
+  - Assets/Art/Models/Furniture/Painting_03.fbx
+  - Assets/Art/Models/Window_Narrow_01.fbx
+  - Assets/Art/Models/Furniture/Jar_04.fbx
+  - Assets/Art/Models/Wall_2x2_Window_Narow.fbx
+  - Assets/Art/Models/Wall_WindowNarrow.fbx
+  modifiedAssets:
+  - meshName:
+    - Window_Sash_01_Open
+    - Window_Sash_01
+    - Window_Sash_01_Open_Glass
+    - Window_Sash_01_Glass
+    padding: 0001000000010000a9000000a9000000
+    unwrapper: 00000000000000000000000000000000
+  - meshName:
+    - Switch_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x2_Door_Plinth
+    - Wall_2x2_Door_Layout
+    - Wall_2x2_Door_Joint
+    - Wall_2x2_Door_Interior
+    - Wall_2x2_Door_Exterior
+    padding: 000100006e00000000010000480000004d000000
+    unwrapper: 0000000000000000000000000000000000000000
+  - meshName:
+    - Floor_2x2
+    padding: 48000000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_07
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x2_Plinth
+    - Wall_2x2
+    padding: 000100003f000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Cupboard_03
+    padding: 3d000000
+    unwrapper: 00000000
+  - meshName:
+    - Floor_1x1
+    padding: 90000000
+    unwrapper: 00000000
+  - meshName:
+    - Floor_1x1_2
+    padding: cc000000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_Level_Joint_1
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Book_04
+    - Book_03
+    - Book_02
+    - Book_01
+    padding: 00010000000100000001000000010000
+    unwrapper: 00000000000000000000000000000000
+  - meshName:
+    - Wall_2x1_Plinth
+    - Wall_2x1
+    padding: 0001000059000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Plug_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Door_1_01_Knob
+    - Door_1_01
+    padding: 000100004c000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Photo_03
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bowl_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_Joint_1
+    padding: de000000
+    unwrapper: 00000000
+  - meshName:
+    - Table_02
+    padding: 8e000000
+    unwrapper: 00000000
+  - meshName:
+    - Radiator_01
+    padding: 5e000000
+    unwrapper: 00000000
+  - meshName:
+    - Jar_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x1_Plinth
+    - Wall_2x1_2
+    padding: 000100007f000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Photo_04
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - TeaBox_Glass
+    - TeaBox
+    padding: 0001000000010000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Jar_08
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Column_001_Quarter
+    padding: bf000000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x1_Corner_Plinth
+    - Wall_2x1_Corner
+    padding: 000100003f000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Jar_06
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Carpet_Round_01
+    padding: 69000000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_09
+    padding: 7f000000
+    unwrapper: 00000000
+  - meshName:
+    - Column_001_Half
+    padding: 88000000
+    unwrapper: 00000000
+  - meshName:
+    - Photo_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Hanger_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Table_03
+    padding: 9a000000
+    unwrapper: 00000000
+  - meshName:
+    - Shelf_01
+    padding: 9c000000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x1_Door_Wall_Interior
+    - Wall_2x1_Door_Wall_Exterior
+    - Wall_2x1_Door_Plinth
+    - Wall_2x1_Door_Layout
+    - Wall_2x1_Door_Joint
+    padding: 7900000096000000000100006e00000000010000
+    unwrapper: 0000000000000000000000000000000000000000
+  - meshName:
+    - Wall_2x2_Window_Inside
+    - Wall_2x2_Window_Exterior
+    - Wall_2x2_Window_Plinth
+    padding: 430000004600000000010000
+    unwrapper: 000000000000000000000000
+  - meshName:
+    - Wall_WindowMesh
+    padding: 8c000000
+    unwrapper: 00000000
+  - meshName:
+    - Stairs_01_Steps
+    - Stairs_01_Railing
+    padding: 200000003e000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Entrance_2x1_House_Door_Entrance_1_Doorbell
+    - Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle
+    - Entrance_2x1_House_Door_Entrance_1_Key
+    - Entrance_2x1_House_Roof_Relief
+    - Entrance_2x1_House_Door_Entrance_1_Knob_Handle
+    - Entrance_2x1_House_Door_Entrance_1_Holder
+    - Entrance_2x1_House_Wall_Inside_Plinth
+    - Entrance_2x1_House_Door_Entrance_1_Knob
+    - Entrance_2x1_House_Wall_Outside_Level_Joint_1
+    - Entrance_2x1_House_Wall_Outside_Joint_4
+    - Entrance_2x1_House_Wall_Outside_Joint_3
+    - Entrance_2x1_House_Wall_Outside_Joint_2
+    - Entrance_2x1_House_Wall_Outside_Joint_1
+    - Entrance_2x1_House_Wall_Outside
+    - Entrance_2x1_House_Wall_Inside
+    - Entrance_2x1_House_Roof
+    - Entrance_2x1_House_Floor
+    - Entrance_2x1_House_Door_Layout
+    - Entrance_2x1_House_Door_Joint
+    - Entrance_2x1_House_Door_Entrance_1
+    - Entrance_2x1_House_Ceiling
+    padding: 000100000001000000010000800000000001000000010000000100000001000095000000fa000000fa000000fa000000fa00000037000000390000003b000000630000003e000000000100004b00000063000000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Carpet_Rectangular_02
+    padding: 40000000
+    unwrapper: 00000000
+  - meshName:
+    - Floor_1x2
+    padding: 66000000
+    unwrapper: 00000000
+  - meshName:
+    - Spice_Recipent_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Glass_Champagne_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Fork_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x1_Window_Plinth
+    - Wall_2x1_Window_Interior
+    - Wall_2x1_Window_Exterior
+    padding: 000100006500000071000000
+    unwrapper: 000000000000000000000000
+  - meshName:
+    - Chair_01
+    padding: 85000000
+    unwrapper: 00000000
+  - meshName:
+    - Tool_Pale_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Mug_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Knife_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - CoffeeMaker_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Plate_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bucket_01
+    padding: fc000000
+    unwrapper: 00000000
+  - meshName:
+    - ToolDryer_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Knife_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Glass_Mix_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Photo_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Kitchen_Worktop_Module_04_Sink_Faucet_End
+    - Kitchen_Worktop_Module_04_Sink_Faucet
+    - Kitchen_Worktop_Module_04_Sink
+    - Kitchen_Worktop_Module_04_Door_R
+    - Kitchen_Worktop_Module_04_Door_L
+    - Kitchen_Worktop_Module_04_Base
+    padding: 00010000000100009c000000ae000000ae00000053000000
+    unwrapper: 000000000000000000000000000000000000000000000000
+  - meshName:
+    - Plate_Deep_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Jar_09
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - WaffleMaker_01_Top
+    - WaffleMaker_01
+    padding: 0001000000010000
+    unwrapper: 0000000000000000
+  - meshName:
+    - TableCloth_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Kitchen_Worktop_Module_02_Up_Light
+    - Kitchen_Worktop_Module_02_Up_Door_L
+    - Kitchen_Worktop_Module_02_Down_Base
+    - Kitchen_Worktop_Module_02_Down_Base_Drawer_01
+    - Kitchen_Worktop_Module_02_Up_Door_R
+    - Kitchen_Worktop_Module_02_Up_Base
+    - Kitchen_Worktop_Module_02_Down_Base_Drawer_03
+    - Kitchen_Worktop_Module_02_Down_Base_Drawer_02
+    padding: 000100009e0000004c000000640000009e000000410000005700000060000000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Glass_Wine_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Lamp_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Cupboard_01
+    padding: 3d000000
+    unwrapper: 00000000
+  - meshName:
+    - Glass_Water_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Kitchen_Worktop_Module_05_Vitro_Control_03
+    - Kitchen_Worktop_Module_05_Vitro_Control_02
+    - Kitchen_Worktop_Module_05_Vitro_Control_01
+    - Kitchen_Worktop_Module_05_Vitro
+    - Kitchen_Worktop_Module_05_Oven
+    - Kitchen_Worktop_Module_05_ExhaustHood
+    - Kitchen_Worktop_Module_05_Base
+    padding: 000100000001000000010000000100009e000000740000004c000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Spoon_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Mug_Tall_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bowl_04
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Fridge_01
+    padding: 37000000
+    unwrapper: 00000000
+  - meshName:
+    - Tool_Fork_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - TeaCup_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Kitchen_Worktop_Module_01_Up_Light
+    - Kitchen_Worktop_Module_01_Down_Door_R
+    - Kitchen_Worktop_Module_01_Up_Door_L
+    - Kitchen_Worktop_Module_01_Up_Base
+    - Kitchen_Worktop_Module_01_Down_Base
+    - Kitchen_Worktop_Module_01_Down_Door_L
+    - Kitchen_Worktop_Module_01_Up_Door_R
+    padding: 000100009f0000009e000000410000003d0000009f0000009e000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Moulin_Pepper_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Tool_Spoon_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bottle_Wine_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bowl_03
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - WallClock_01_Seconds
+    - WallClock_01_Minutes
+    - WallClock_01_Hours
+    - WallClock_01_Glass
+    - WallClock_01
+    padding: 0001000000010000000100000001000000010000
+    unwrapper: 0000000000000000000000000000000000000000
+  - meshName:
+    - Teapot_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x2_Worktop_Plinth_02
+    - Wall_2x2_Worktop_Plinth_01
+    - Wall_2x2_Worktop_Marble
+    - Wall_2x2_Worktop
+    padding: 0001000000010000710000003b000000
+    unwrapper: 00000000000000000000000000000000
+  - meshName:
+    - Sponge_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bowl_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - MicrofiberTowel_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Bowl_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - ToolPot_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Cupboard_05_Glass
+    - Cupboard_05
+    padding: 4200000042000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Carpet_Rectangular_03
+    padding: 23000000
+    unwrapper: 00000000
+  - meshName:
+    - Spoon_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Stool_Stair_01
+    padding: 95000000
+    unwrapper: 00000000
+  - meshName:
+    - Moulin_Salt_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x2_Door_Joint
+    - Wall_2x2_Door_Double_Plinth
+    - Wall_2x2_Door_Double_Layout
+    - Wall_2x2_Door_Double_Inside
+    - Wall_2x2_Door_Double_Exterior
+    padding: 000100000001000063000000660000007a000000
+    unwrapper: 0000000000000000000000000000000000000000
+  - meshName:
+    - Kitchen_Worktop_Module_03_Down_Door_R
+    - Kitchen_Worktop_Module_03_Up_Door_R
+    - Kitchen_Worktop_Module_03_Up_Base
+    - Kitchen_Worktop_Module_03_Up_Light
+    - Kitchen_Worktop_Module_03_Down_Door_L
+    - Kitchen_Worktop_Module_03_Down_Base
+    - Kitchen_Worktop_Module_03_Up_Door_L
+    padding: b6000000af0000003a00000000010000b200000041000000b4000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Stool_Tall_01
+    padding: aa000000
+    unwrapper: 00000000
+  - meshName:
+    - Magazine_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_06
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Microwave_01
+    padding: 81000000
+    unwrapper: 00000000
+  - meshName:
+    - PaperRoll_01
+    - PaperRoll_Holder_01
+    padding: 0001000000010000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Jar_07
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Grandfather_Clock_01_Minute
+    - Grandfather_Clock_01_Hour
+    - Grandfather_Clock_01_Glass
+    - Grandfather_Clock_01
+    padding: 0001000000010000cb00000041000000
+    unwrapper: 00000000000000000000000000000000
+  - meshName:
+    - Light_Lamp_Ceiling_01
+    padding: 9a000000
+    unwrapper: 00000000
+  - meshName:
+    - Plate_Dryer_01
+    padding: d4000000
+    unwrapper: 00000000
+  - meshName:
+    - TeaCup_Plate_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Table_01
+    padding: 34000000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_05
+    padding: ac000000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_04
+    padding: de000000
+    unwrapper: 00000000
+  - meshName:
+    - Salt_Container_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Tool_Shelf_Mop
+    - Tool_Shelf_Broom
+    - Tool_Shelf
+    padding: 000100000001000000010000
+    unwrapper: 000000000000000000000000
+  - meshName:
+    - Glass_Water_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Tray_01
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Roll_4
+    - Roll_3
+    - Roll_2
+    - Roll_1
+    - Box_Type_6
+    - Box_Type_5
+    - Box_Type_4
+    - Box_Type_3
+    - Box_Type_2
+    - Box_Type_1
+    - Blanket_02
+    - Blanket_01
+    padding: 930000006e00000081000000610000004c000000760000006300000065000000ad0000008e0000004900000048000000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Painting_10
+    padding: a8000000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_01
+    padding: ce000000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_08
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_02
+    padding: d8000000
+    unwrapper: 00000000
+  - meshName:
+    - Jar_02
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Jar_05
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Painting_03
+    padding: e6000000
+    unwrapper: 00000000
+  - meshName:
+    - Window_Narrow_01
+    padding: f8000000
+    unwrapper: 00000000
+  - meshName:
+    - Jar_04
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Wall_2x2_Window_Narrow_Outside
+    - Wall_2x2_Window_Narrow_Inside
+    padding: 4200000040000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - Wall_WindowNarrowMesh
+    padding: af000000
+    unwrapper: 00000000
+  debugTex: {fileID: 0}
+  debugRT: {fileID: 0}
+  maps:
+  - {fileID: 2800000, guid: eda6c1905debe184aae67ef031010396, type: 3}
+  - {fileID: 2800000, guid: 0d00a7134823c1c418dc1aca911bc7ee, type: 3}
+  - {fileID: 2800000, guid: 20aefe213b117e34db1bcc8ab7bc9cba, type: 3}
+  masks: []
+  dirMaps: []
+  rnmMaps0: []
+  rnmMaps1: []
+  rnmMaps2: []
+  mapsMode: 
+  bakedRenderers: []
+  bakedIDs: 
+  bakedScaleOffset: []
+  bakedVertexOffset: 
+  bakedVertexColorMesh: []
+  nonBakedRenderers: []
+  bakedLights: []
+  bakedLightChannels: 
+  bakedRenderersTerrain: []
+  bakedIDsTerrain: 
+  bakedScaleOffsetTerrain: []
+  assetList: []
+  uvOverlapAssetList: 
+  idremap: 000000000100000002000000
+  usesRealtimeGI: 0
+  emptyDirectionTex: {fileID: 0}
+--- !u!4 &312634797
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 312634795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &368797620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1870082791760232, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 827662150}
+  - component: {fileID: 368797621}
+  - component: {fileID: 368797624}
+  - component: {fileID: 368797622}
+  - component: {fileID: 368797623}
+  m_Layer: 16
+  m_Name: FirstPersonCharacter
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &368797621
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20321415377819274, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368797620}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 15
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &368797622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114270105916333154, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368797620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 3345ba393bf3ce745ac2c86be8a4f187, type: 2}
+--- !u!114 &368797623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368797620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd06815c47d30489f70df42db56a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frustum:
+    settings:
+      enableVolumes: 1
+      enableVolumesTextureMask: 1
+      enableVolumesNoiseMask: 1
+      enableDirectionalLights: 1
+      enableDirectionalLightsShadows: 1
+      enableSpotLights: 1
+      enableSpotLightsShadows: 1
+      enablePointLights: 1
+      enablePointLightsShadows: 1
+      enableLightsCookies: 1
+      enableOcclusionCulling: 1
+      occlusionCullingAccuracy: 2
+      enableTemporalReprojection: 1
+      temporalReprojectionFactor: 0.9
+      resolution: {x: 160, y: 88, z: 128}
+      farClipPlaneDistance: 50
+      density: 0.25
+      anisotropy: 0.5
+      color: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+      colorStrength: 0.25
+    _computeMaximumDepthComputeShader: {fileID: 7200000, guid: a5d52c8a306e8b746ab60b306575aa3e,
+      type: 3}
+    _processOcclusionMapShader: {fileID: 4800000, guid: b9b5b0990ea6cfa4d96c89a9c1cec3e9,
+      type: 3}
+    _computeDataComputeShader: {fileID: 7200000, guid: 971d5d94be5bebc44aa6d832c17f5e62,
+      type: 3}
+    _computeAccumulationComputeShader: {fileID: 7200000, guid: 41ac7d79af1f9614ebe54df4f30ac3e0,
+      type: 3}
+  applyAsPostProcess: 1
+  computeMaximumDepthComputeShader: {fileID: 7200000, guid: a5d52c8a306e8b746ab60b306575aa3e,
+    type: 3}
+  processOcclusionMapShader: {fileID: 4800000, guid: b9b5b0990ea6cfa4d96c89a9c1cec3e9,
+    type: 3}
+  computeDataComputeShader: {fileID: 7200000, guid: 971d5d94be5bebc44aa6d832c17f5e62,
+    type: 3}
+  computeAccumulationComputeShader: {fileID: 7200000, guid: 41ac7d79af1f9614ebe54df4f30ac3e0,
+    type: 3}
+  postProcessShader: {fileID: 4800000, guid: 50255fa344dbd814c910fdafc5692b09, type: 3}
+  blueNoiseTexturesArray: {fileID: 18700000, guid: 518b8337a0340444aa49dd0780efa9c2,
+    type: 2}
+  _hasBeenAssigned: 1
+--- !u!124 &368797624
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124189969980555996, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368797620}
+  m_Enabled: 1
+--- !u!84 &663124895
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!1 &687896530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1434704308697324, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 687896531}
+  - component: {fileID: 687896534}
+  - component: {fileID: 687896533}
+  - component: {fileID: 687896532}
+  m_Layer: 16
+  m_Name: PlayerTrigger
+  m_TagString: PlayerTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687896531
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4479550785905846, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687896530}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.25, z: 0.5}
+  m_LocalScale: {x: 0.06, y: 0.45, z: 1.06}
+  m_Children: []
+  m_Father: {fileID: 827662150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &687896532
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23556336073400708, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687896530}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6d476f0710970014aa860ea94e47e453, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &687896533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65767650532635526, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687896530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &687896534
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33789185496419720, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687896530}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &797149222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1332137626544586, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 797149227}
+  - component: {fileID: 797149226}
+  - component: {fileID: 797149225}
+  - component: {fileID: 797149224}
+  - component: {fileID: 797149223}
+  m_Layer: 16
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &797149223
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 82680439631159414, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797149222}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!54 &797149224
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 54859378338483542, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797149222}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &797149225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114737067011005778, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797149222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsWalking: 1
+  m_WalkSpeed: 0.5
+  m_RunSpeed: 1
+  m_RunstepLenghten: 0.3
+  m_JumpSpeed: 0
+  m_StickToGroundForce: 1
+  m_GravityMultiplier: 1
+  m_MouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+    lockCursor: 1
+  m_UseFovKick: 1
+  m_FovKick:
+    Camera: {fileID: 368797621}
+    originalFov: 60
+    FOVIncrease: 3
+    TimeToIncrease: 1
+    TimeToDecrease: 1
+    IncreaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_UseHeadBob: 0
+  m_HeadBob:
+    HorizontalBobRange: 0.1
+    VerticalBobRange: 0.1
+    Bobcurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticaltoHorizontalRatio: 2
+  m_JumpBob:
+    BobDuration: 0.2
+    BobAmount: 0.1
+  m_StepInterval: 1
+  m_FootstepSounds:
+  - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
+  - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+  m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
+  m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+--- !u!143 &797149226
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143756521155073256, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797149222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.8
+  m_Radius: 0.15
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &797149227
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4596650761110976, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797149222}
+  m_LocalRotation: {x: -0, y: 0.8206384, z: -0, w: 0.57144785}
+  m_LocalPosition: {x: -3.34, y: 0.932, z: -1.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 827662150}
+  - {fileID: 1911256917}
+  - {fileID: 1934106774}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -249.703, z: 0}
+--- !u!4 &827662150
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4281706525862542, guid: 320ea8b74b8239147a4ec30cd51cf3b4,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368797620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 687896531}
+  m_Father: {fileID: 797149227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1030050949
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 32
+  m_Height: 1
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!1 &1628543767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1628543770}
+  - component: {fileID: 1628543769}
+  - component: {fileID: 1628543768}
+  m_Layer: 16
+  m_Name: Aura Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!114 &1628543768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1628543767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01d29d88278f45458d99e6b5199e920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  overrideColor: 0
+  overridingColor: {r: 0.9999, g: 0.97559613, b: 0.5546237, a: 1}
+  useShadow: 1
+  shadowMapRenderTexture: {fileID: 663124895}
+  useCookie: 1
+  cookieMapRenderTexture: {fileID: 0}
+  enableOutOfPhaseColor: 0
+  outOfPhaseColorStrength: 0.1
+  outOfPhaseColor: {r: 0, g: 1, b: 1, a: 1}
+  storeShadowDataShader: {fileID: 4800000, guid: fff19db2423616b4dbabe995cd97279e,
+    type: 3}
+  shadowDataRenderTexture: {fileID: 1030050949}
+  customDistanceFalloffThreshold: 0.5
+  customDistanceFalloffPower: 2
+  storeDirectionalSpotLightCookieMapShader: {fileID: 4800000, guid: ffdac5434c39f7545b910c253007c8fc,
+    type: 3}
+  customCookieDistanceFalloffStartThreshold: 0.1
+  customCookieDistanceFalloffEndThreshold: 0.25
+  customCookieDistanceFalloffPower: 2
+  customAngularFalloffThreshold: 0.8
+  customAngularFalloffPower: 2
+  storePointLightShadowMapShader: {fileID: 4800000, guid: f1531a9bd4087ff468de8de09f6ba126,
+    type: 3}
+  storePointLightShadowMapMesh: {fileID: 4300000, guid: d68bec3f4c08e40468fad98606344ea6,
+    type: 3}
+  storePointLightCookieMapShader: {fileID: 4800000, guid: 83815c326d7f2514884f3fc7a05b5aef,
+    type: 3}
+--- !u!108 &1628543769
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1628543767}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.90588236, b: 0.78676474, a: 1}
+  m_Intensity: 1.5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 5
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0
+    m_NormalBias: 0
+    m_NearPlane: 0.1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967293
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1.5
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1628543770
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1628543767}
+  m_LocalRotation: {x: 0.51319474, y: -0.62722373, z: 0.5835563, w: -0.051804315}
+  m_LocalPosition: {x: -4.99, y: 5.578, z: 5.784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 42.755, y: 115.28001, z: 253.55899}
+--- !u!1 &1911256915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1911256917}
+  - component: {fileID: 1911256916}
+  m_Layer: 16
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1911256916
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1911256915}
+  m_Enabled: 1
+--- !u!4 &1911256917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1911256915}
+  m_LocalRotation: {x: 0.122737065, y: -0, z: -0, w: 0.99243927}
+  m_LocalPosition: {x: 0, y: 0.65000004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 797149227}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1934106773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1934106774}
+  - component: {fileID: 1934106775}
+  m_Layer: 16
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1934106774
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1934106773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 797149227}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1934106775
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1934106773}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.25
+  m_Range: 2
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0

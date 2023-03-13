@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: f8c30b60821cc484bbe0d5d4c692674a
+timeCreated: 1522268582
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group1
+    100002: pCube16
+    100004: pCube17
+    100006: pCube17 1
+    100008: pCube18
+    100010: pCube19
+    100012: pCube20
+    100014: pCube21
+    100016: pCube22
+    100018: pCube23
+    100020: pCube24
+    100022: pCube25
+    100024: pCube26
+    100026: pCube27
+    100028: pCube29
+    100030: pCube30
+    100032: pCube31
+    100034: pPlane1
+    100036: pPlane10
+    100038: pPlane11
+    100040: pPlane12
+    100042: pPlane13
+    100044: pPlane14
+    100046: pPlane2
+    100048: pPlane3
+    100050: pPlane4
+    100052: pPlane5
+    100054: pPlane6
+    100056: pPlane7
+    100058: pPlane8
+    100060: pPlane9
+    100062: Stairs_House_01
+    100064: //RootNode
+    100066: transform1
+    100068: transform10
+    100070: transform11
+    100072: transform12
+    100074: transform13
+    100076: transform14
+    100078: transform15
+    100080: transform16
+    100082: transform17
+    100084: transform18
+    100086: transform19
+    100088: transform2
+    100090: transform20
+    100092: transform21
+    100094: transform22
+    100096: transform23
+    100098: transform24
+    100100: transform25
+    100102: transform26
+    100104: transform27
+    100106: transform28
+    100108: transform29
+    100110: transform3
+    100112: transform30
+    100114: transform4
+    100116: transform5
+    100118: transform6
+    100120: transform7
+    100122: transform8
+    100124: transform9
+    100126: pCube33
+    100128: pCube34
+    100130: Stairs_House_01_Bars
+    100132: Stairs_House_01_WoodenWall
+    400000: group1
+    400002: pCube16
+    400004: pCube17
+    400006: pCube17 1
+    400008: pCube18
+    400010: pCube19
+    400012: pCube20
+    400014: pCube21
+    400016: pCube22
+    400018: pCube23
+    400020: pCube24
+    400022: pCube25
+    400024: pCube26
+    400026: pCube27
+    400028: pCube29
+    400030: pCube30
+    400032: pCube31
+    400034: pPlane1
+    400036: pPlane10
+    400038: pPlane11
+    400040: pPlane12
+    400042: pPlane13
+    400044: pPlane14
+    400046: pPlane2
+    400048: pPlane3
+    400050: pPlane4
+    400052: pPlane5
+    400054: pPlane6
+    400056: pPlane7
+    400058: pPlane8
+    400060: pPlane9
+    400062: //RootNode
+    400064: Stairs_House_01
+    400066: transform1
+    400068: transform10
+    400070: transform11
+    400072: transform12
+    400074: transform13
+    400076: transform14
+    400078: transform15
+    400080: transform16
+    400082: transform17
+    400084: transform18
+    400086: transform19
+    400088: transform2
+    400090: transform20
+    400092: transform21
+    400094: transform22
+    400096: transform23
+    400098: transform24
+    400100: transform25
+    400102: transform26
+    400104: transform27
+    400106: transform28
+    400108: transform29
+    400110: transform3
+    400112: transform30
+    400114: transform4
+    400116: transform5
+    400118: transform6
+    400120: transform7
+    400122: transform8
+    400124: transform9
+    400126: pCube33
+    400128: pCube34
+    400130: Stairs_House_01_Bars
+    400132: Stairs_House_01_WoodenWall
+    2100000: phong2
+    2100002: phong1
+    2300000: Stairs_House_01
+    2300002: //RootNode
+    2300004: pCube33
+    2300006: pCube34
+    2300008: Stairs_House_01_Bars
+    2300010: Stairs_House_01_WoodenWall
+    3300000: Stairs_House_01
+    3300002: //RootNode
+    3300004: pCube33
+    3300006: pCube34
+    3300008: Stairs_House_01_Bars
+    3300010: Stairs_House_01_WoodenWall
+    4300000: Stairs_House_01
+    4300002: pCube33
+    4300004: pCube34
+    4300006: Stairs_House_01_Bars
+    4300008: Stairs_House_01_WoodenWall
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

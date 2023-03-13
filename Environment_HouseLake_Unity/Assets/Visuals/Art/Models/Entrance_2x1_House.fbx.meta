@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: e93e9f24e0f7c4f4cb77a1adc4554d08
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Entrance_2x1_House_Door_Entrance_1
+    100004: Entrance_2x1_House_Door_Entrance_1_Doorbell
+    100006: Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle
+    100008: Entrance_2x1_House_Door_Entrance_1_Holder
+    100010: Entrance_2x1_House_Door_Entrance_1_Key
+    100012: Entrance_2x1_House_Door_Entrance_1_Knob
+    100014: Entrance_2x1_House_Door_Entrance_1_Knob_Handle
+    100016: Entrance_2x1_House_Door_Joint
+    100018: Entrance_2x1_House_Door_Layout
+    100020: Entrance_2x1_House_Door_Layout_Glass
+    100022: Entrance_2x1_House_Floor
+    100024: Entrance_2x1_House_Roof
+    100026: Entrance_2x1_House_Roof_Relief
+    100028: Entrance_2x1_House_Wall_Inside
+    100030: Entrance_2x1_House_Wall_Inside_Plinth
+    100032: Entrance_2x1_House_Wall_Outside
+    100034: Entrance_2x1_House_Wall_Outside_Joint_1
+    100036: Entrance_2x1_House_Wall_Outside_Joint_2
+    100038: Entrance_2x1_House_Wall_Outside_Joint_3
+    100040: Entrance_2x1_House_Wall_Outside_Joint_4
+    100042: Entrance_2x1_House_Wall_Outside_Level_Joint_1
+    100044: Entrance_2x1_House_Ceiling
+    400000: //RootNode
+    400002: Entrance_2x1_House_Door_Entrance_1
+    400004: Entrance_2x1_House_Door_Entrance_1_Doorbell
+    400006: Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle
+    400008: Entrance_2x1_House_Door_Entrance_1_Holder
+    400010: Entrance_2x1_House_Door_Entrance_1_Key
+    400012: Entrance_2x1_House_Door_Entrance_1_Knob
+    400014: Entrance_2x1_House_Door_Entrance_1_Knob_Handle
+    400016: Entrance_2x1_House_Door_Joint
+    400018: Entrance_2x1_House_Door_Layout
+    400020: Entrance_2x1_House_Door_Layout_Glass
+    400022: Entrance_2x1_House_Floor
+    400024: Entrance_2x1_House_Roof
+    400026: Entrance_2x1_House_Roof_Relief
+    400028: Entrance_2x1_House_Wall_Inside
+    400030: Entrance_2x1_House_Wall_Inside_Plinth
+    400032: Entrance_2x1_House_Wall_Outside
+    400034: Entrance_2x1_House_Wall_Outside_Joint_1
+    400036: Entrance_2x1_House_Wall_Outside_Joint_2
+    400038: Entrance_2x1_House_Wall_Outside_Joint_3
+    400040: Entrance_2x1_House_Wall_Outside_Joint_4
+    400042: Entrance_2x1_House_Wall_Outside_Level_Joint_1
+    400044: Entrance_2x1_House_Ceiling
+    2100000: phong7
+    2100002: window_mat
+    2100004: phong1
+    2100006: wood_checker
+    2100008: phong8
+    2100010: phong9
+    2100012: phong10
+    2300000: Entrance_2x1_House_Door_Entrance_1
+    2300002: Entrance_2x1_House_Door_Entrance_1_Doorbell
+    2300004: Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle
+    2300006: Entrance_2x1_House_Door_Entrance_1_Holder
+    2300008: Entrance_2x1_House_Door_Entrance_1_Key
+    2300010: Entrance_2x1_House_Door_Entrance_1_Knob
+    2300012: Entrance_2x1_House_Door_Entrance_1_Knob_Handle
+    2300014: Entrance_2x1_House_Door_Joint
+    2300016: Entrance_2x1_House_Door_Layout
+    2300018: Entrance_2x1_House_Door_Layout_Glass
+    2300020: Entrance_2x1_House_Floor
+    2300022: Entrance_2x1_House_Roof
+    2300024: Entrance_2x1_House_Roof_Relief
+    2300026: Entrance_2x1_House_Wall_Inside
+    2300028: Entrance_2x1_House_Wall_Inside_Plinth
+    2300030: Entrance_2x1_House_Wall_Outside
+    2300032: Entrance_2x1_House_Wall_Outside_Joint_1
+    2300034: Entrance_2x1_House_Wall_Outside_Joint_2
+    2300036: Entrance_2x1_House_Wall_Outside_Joint_3
+    2300038: Entrance_2x1_House_Wall_Outside_Joint_4
+    2300040: Entrance_2x1_House_Wall_Outside_Level_Joint_1
+    2300042: Entrance_2x1_House_Ceiling
+    3300000: Entrance_2x1_House_Door_Entrance_1
+    3300002: Entrance_2x1_House_Door_Entrance_1_Doorbell
+    3300004: Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle
+    3300006: Entrance_2x1_House_Door_Entrance_1_Holder
+    3300008: Entrance_2x1_House_Door_Entrance_1_Key
+    3300010: Entrance_2x1_House_Door_Entrance_1_Knob
+    3300012: Entrance_2x1_House_Door_Entrance_1_Knob_Handle
+    3300014: Entrance_2x1_House_Door_Joint
+    3300016: Entrance_2x1_House_Door_Layout
+    3300018: Entrance_2x1_House_Door_Layout_Glass
+    3300020: Entrance_2x1_House_Floor
+    3300022: Entrance_2x1_House_Roof
+    3300024: Entrance_2x1_House_Roof_Relief
+    3300026: Entrance_2x1_House_Wall_Inside
+    3300028: Entrance_2x1_House_Wall_Inside_Plinth
+    3300030: Entrance_2x1_House_Wall_Outside
+    3300032: Entrance_2x1_House_Wall_Outside_Joint_1
+    3300034: Entrance_2x1_House_Wall_Outside_Joint_2
+    3300036: Entrance_2x1_House_Wall_Outside_Joint_3
+    3300038: Entrance_2x1_House_Wall_Outside_Joint_4
+    3300040: Entrance_2x1_House_Wall_Outside_Level_Joint_1
+    3300042: Entrance_2x1_House_Ceiling
+    4300000: Entrance_2x1_House_Door_Joint
+    4300002: Entrance_2x1_House_Door_Layout
+    4300004: Entrance_2x1_House_Door_Layout_Glass
+    4300006: Entrance_2x1_House_Wall_Inside
+    4300008: Entrance_2x1_House_Wall_Inside_Plinth
+    4300010: Entrance_2x1_House_Wall_Outside
+    4300012: Entrance_2x1_House_Floor
+    4300014: Entrance_2x1_House_Door_Entrance_1
+    4300016: Entrance_2x1_House_Door_Entrance_1_Knob
+    4300018: Entrance_2x1_House_Door_Entrance_1_Knob_Handle
+    4300020: Entrance_2x1_House_Door_Entrance_1_Key
+    4300022: Entrance_2x1_House_Door_Entrance_1_Holder
+    4300024: Entrance_2x1_House_Door_Entrance_1_Doorbell
+    4300026: Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle
+    4300028: Entrance_2x1_House_Wall_Outside_Joint_2
+    4300030: Entrance_2x1_House_Wall_Outside_Joint_4
+    4300032: Entrance_2x1_House_Roof
+    4300034: Entrance_2x1_House_Roof_Relief
+    4300036: Entrance_2x1_House_Wall_Outside_Level_Joint_1
+    4300038: Entrance_2x1_House_Wall_Outside_Joint_1
+    4300040: Entrance_2x1_House_Wall_Outside_Joint_3
+    4300042: Entrance_2x1_House_Ceiling
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Entrance_2x1_House_Door_Entrance_1_Doorbell","Entrance_2x1_House_Door_Entrance_1_Doorbell_Handle","Entrance_2x1_House_Door_Entrance_1_Key","Entrance_2x1_House_Roof_Relief","Entrance_2x1_House_Door_Entrance_1_Knob_Handle","Entrance_2x1_House_Door_Entrance_1_Holder","Entrance_2x1_House_Wall_Inside_Plinth","Entrance_2x1_House_Door_Entrance_1_Knob","Entrance_2x1_House_Wall_Outside_Level_Joint_1","Entrance_2x1_House_Wall_Outside_Joint_4","Entrance_2x1_House_Wall_Outside_Joint_3","Entrance_2x1_House_Wall_Outside_Joint_2","Entrance_2x1_House_Wall_Outside_Joint_1","Entrance_2x1_House_Wall_Outside","Entrance_2x1_House_Wall_Inside","Entrance_2x1_House_Roof","Entrance_2x1_House_Floor","Entrance_2x1_House_Door_Layout","Entrance_2x1_House_Door_Joint","Entrance_2x1_House_Door_Entrance_1","Entrance_2x1_House_Ceiling","Entrance_2x1_House_Door_Layout_Glass"],"padding":[256,231,256,23,256,157,49,234,27,45,45,45,45,10,10,10,18,11,89,13,18,18],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

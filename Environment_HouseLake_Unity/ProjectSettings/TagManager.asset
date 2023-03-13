@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Light
+  - ToUse
+  - ToPickUp
+  - PlayerTrigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Bath_Wall
+  - FX
+  - 
+  - House_Hall
+  - House_Dinning
+  - House_Studio
+  - House_Bath
+  - House_Living
+  - House_Bedroom
+  - House_Room
+  - House_Out
+  - LightFixing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

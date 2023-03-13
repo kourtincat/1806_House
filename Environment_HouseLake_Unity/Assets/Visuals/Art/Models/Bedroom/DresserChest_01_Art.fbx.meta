@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 25a13ace77c5900409e1ff977091485d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polySurface1
+    100004: polySurface10
+    100006: polySurface9
+    100008: DresserChest_01_Drawer_01
+    100010: DresserChest_01_Drawer_01_Body
+    100012: DresserChest_01_Drawer_02
+    100014: DresserChest_01_Drawer_03
+    100016: DresserChest_01_Drawer_04
+    100018: DresserChest_01_Drawer_05
+    100020: DresserChest_01_Drawer_06
+    400000: //RootNode
+    400002: polySurface1
+    400004: polySurface10
+    400006: polySurface9
+    400008: DresserChest_01_Drawer_01
+    400010: DresserChest_01_Drawer_01_Body
+    400012: DresserChest_01_Drawer_02
+    400014: DresserChest_01_Drawer_03
+    400016: DresserChest_01_Drawer_04
+    400018: DresserChest_01_Drawer_05
+    400020: DresserChest_01_Drawer_06
+    2100000: phong1
+    2300000: polySurface1
+    2300002: DresserChest_01_Drawer_01
+    2300004: DresserChest_01_Drawer_01_Body
+    2300006: DresserChest_01_Drawer_02
+    2300008: DresserChest_01_Drawer_03
+    2300010: DresserChest_01_Drawer_04
+    2300012: DresserChest_01_Drawer_05
+    2300014: DresserChest_01_Drawer_06
+    3300000: polySurface1
+    3300002: DresserChest_01_Drawer_01
+    3300004: DresserChest_01_Drawer_01_Body
+    3300006: DresserChest_01_Drawer_02
+    3300008: DresserChest_01_Drawer_03
+    3300010: DresserChest_01_Drawer_04
+    3300012: DresserChest_01_Drawer_05
+    3300014: DresserChest_01_Drawer_06
+    4300000: polySurface1
+    4300002: DresserChest_01_Drawer_01_Body
+    4300004: DresserChest_01_Drawer_06
+    4300006: DresserChest_01_Drawer_05
+    4300008: DresserChest_01_Drawer_04
+    4300010: DresserChest_01_Drawer_03
+    4300012: DresserChest_01_Drawer_02
+    4300014: DresserChest_01_Drawer_01
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["DresserChest_01_Drawer_06","DresserChest_01_Drawer_05","DresserChest_01_Drawer_04","DresserChest_01_Drawer_03","DresserChest_01_Drawer_02","DresserChest_01_Drawer_01_Body","DresserChest_01_Drawer_01"],"padding":[19,19,19,19,19,7,19],"unwrapper":[0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

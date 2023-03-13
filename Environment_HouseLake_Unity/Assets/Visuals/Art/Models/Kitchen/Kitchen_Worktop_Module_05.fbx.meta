@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: d1ad5b38156ffaf4295a43b8963dbf44
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Kitchen_Worktop_Module_05_Base
+    100004: Kitchen_Worktop_Module_05_ExhaustHood
+    100006: Kitchen_Worktop_Module_05_Oven
+    100008: Kitchen_Worktop_Module_05_Vitro
+    100010: Kitchen_Worktop_Module_05_Vitro_Control_01
+    100012: Kitchen_Worktop_Module_05_Vitro_Control_02
+    100014: Kitchen_Worktop_Module_05_Vitro_Control_03
+    400000: //RootNode
+    400002: Kitchen_Worktop_Module_05_Base
+    400004: Kitchen_Worktop_Module_05_ExhaustHood
+    400006: Kitchen_Worktop_Module_05_Oven
+    400008: Kitchen_Worktop_Module_05_Vitro
+    400010: Kitchen_Worktop_Module_05_Vitro_Control_01
+    400012: Kitchen_Worktop_Module_05_Vitro_Control_02
+    400014: Kitchen_Worktop_Module_05_Vitro_Control_03
+    2100000: phong1
+    2300000: Kitchen_Worktop_Module_05_Base
+    2300002: Kitchen_Worktop_Module_05_ExhaustHood
+    2300004: Kitchen_Worktop_Module_05_Oven
+    2300006: Kitchen_Worktop_Module_05_Vitro
+    2300008: Kitchen_Worktop_Module_05_Vitro_Control_01
+    2300010: Kitchen_Worktop_Module_05_Vitro_Control_02
+    2300012: Kitchen_Worktop_Module_05_Vitro_Control_03
+    3300000: Kitchen_Worktop_Module_05_Base
+    3300002: Kitchen_Worktop_Module_05_ExhaustHood
+    3300004: Kitchen_Worktop_Module_05_Oven
+    3300006: Kitchen_Worktop_Module_05_Vitro
+    3300008: Kitchen_Worktop_Module_05_Vitro_Control_01
+    3300010: Kitchen_Worktop_Module_05_Vitro_Control_02
+    3300012: Kitchen_Worktop_Module_05_Vitro_Control_03
+    4300000: Kitchen_Worktop_Module_05_Vitro_Control_03
+    4300002: Kitchen_Worktop_Module_05_Vitro_Control_02
+    4300004: Kitchen_Worktop_Module_05_Vitro_Control_01
+    4300006: Kitchen_Worktop_Module_05_Vitro
+    4300008: Kitchen_Worktop_Module_05_Base
+    4300010: Kitchen_Worktop_Module_05_ExhaustHood
+    4300012: Kitchen_Worktop_Module_05_Oven
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Kitchen_Worktop_Module_05_Vitro_Control_03","Kitchen_Worktop_Module_05_Vitro_Control_02","Kitchen_Worktop_Module_05_Vitro_Control_01","Kitchen_Worktop_Module_05_Vitro","Kitchen_Worktop_Module_05_Oven","Kitchen_Worktop_Module_05_ExhaustHood","Kitchen_Worktop_Module_05_Base"],"padding":[256,256,256,47,28,21,13],"unwrapper":[0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

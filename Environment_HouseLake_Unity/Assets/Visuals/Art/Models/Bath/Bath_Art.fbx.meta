@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: eaea4dd9a9477224c86609fd745d2d81
+timeCreated: 1537348616
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bath_Annex
+    100004: Bath_Annex_Shelf_01
+    100006: Bath_Annex_Shelf_02
+    100008: Bath_Annex_Shelf_03
+    100010: group3
+    100012: group4
+    100014: group5
+    100016: pCube12
+    100018: pCylinder10
+    100020: pCylinder7
+    100022: pCylinder8
+    100024: pCylinder9
+    100026: Bath_Base
+    100028: Bath_Bath
+    100030: Bath_Door_01
+    100032: Bath_Shelf_01
+    100034: Bath_Shelf_02
+    100036: Bath_Shelf_03
+    400000: //RootNode
+    400002: Bath_Annex
+    400004: Bath_Annex_Shelf_01
+    400006: Bath_Annex_Shelf_02
+    400008: Bath_Annex_Shelf_03
+    400010: group3
+    400012: group4
+    400014: group5
+    400016: pCube12
+    400018: pCylinder10
+    400020: pCylinder7
+    400022: pCylinder8
+    400024: pCylinder9
+    400026: Bath_Base
+    400028: Bath_Bath
+    400030: Bath_Door_01
+    400032: Bath_Shelf_01
+    400034: Bath_Shelf_02
+    400036: Bath_Shelf_03
+    2100000: phong1
+    2300000: //RootNode
+    2300002: Bath_Annex
+    2300004: Bath_Annex_Shelf_01
+    2300006: Bath_Annex_Shelf_02
+    2300008: Bath_Annex_Shelf_03
+    2300010: group3
+    2300012: group4
+    2300014: group5
+    2300016: pCube12
+    2300018: pCylinder10
+    2300020: pCylinder7
+    2300022: pCylinder8
+    2300024: pCylinder9
+    2300026: Bath_Base
+    2300028: Bath_Bath
+    2300030: Bath_Door_01
+    2300032: Bath_Shelf_01
+    2300034: Bath_Shelf_02
+    2300036: Bath_Shelf_03
+    3300000: //RootNode
+    3300002: Bath_Annex
+    3300004: Bath_Annex_Shelf_01
+    3300006: Bath_Annex_Shelf_02
+    3300008: Bath_Annex_Shelf_03
+    3300010: group3
+    3300012: group4
+    3300014: group5
+    3300016: pCube12
+    3300018: pCylinder10
+    3300020: pCylinder7
+    3300022: pCylinder8
+    3300024: pCylinder9
+    3300026: Bath_Base
+    3300028: Bath_Bath
+    3300030: Bath_Door_01
+    3300032: Bath_Shelf_01
+    3300034: Bath_Shelf_02
+    3300036: Bath_Shelf_03
+    4300000: Bath
+    4300002: Bath_Annex
+    4300004: Bath_Annex_Shelf_01
+    4300006: Bath_Annex_Shelf_02
+    4300008: Bath_Annex_Shelf_03
+    4300010: pCube12
+    4300012: group3
+    4300014: pCylinder10
+    4300016: pCylinder8
+    4300018: pCylinder7
+    4300020: pCylinder9
+    4300022: group5
+    4300024: group4
+    4300026: Bath_Base
+    4300028: Bath_Shelf_01
+    4300030: Bath_Bath
+    4300032: Bath_Door_01
+    4300034: Bath_Shelf_02
+    4300036: Bath_Shelf_03
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 90ac3a21b1ec0d948a4288512f87cf64
+timeCreated: 1523443793
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube11
+    100004: pCube15
+    100006: pCube16
+    100008: pCube17
+    100010: pCube22
+    100012: pCube23
+    100014: pCube43
+    100016: pCube53
+    100018: pCube54
+    100020: pCube92
+    100022: pCube93
+    100024: pCube94
+    100026: pCube95
+    100028: pCube96
+    100030: pCube102
+    100032: pCube103
+    100034: pCube108
+    100036: pCube97
+    100038: pCube98
+    100040: transform32
+    100042: transform33
+    100044: pCube109
+    100046: pCube110
+    100048: pCube112
+    100050: pCube115
+    100052: pCube116
+    100054: pCube117
+    100056: pCube118
+    100058: pCube119
+    100060: pCube119 1
+    100062: pCube119 2
+    100064: pCube120
+    100066: pCube120 1
+    100068: pCube120 2
+    100070: pCube121
+    100072: pCube121 1
+    100074: pCube121 2
+    100076: pCube122
+    100078: pCube122 1
+    100080: pCube122 2
+    100082: pCube123
+    100084: pCube124
+    100086: pCube125
+    100088: pCube125 1
+    100090: pCube126
+    100092: pCube126 1
+    100094: pCube127
+    100096: pCube127 1
+    100098: pCube128
+    100100: pCube128 1
+    100102: pCube129
+    100104: pCube130
+    100106: pCube131
+    100108: pCube132
+    100110: pCube133
+    100112: pCube134
+    100114: pCube135
+    100116: pCube136
+    100118: pCube137
+    100120: pCube139
+    100122: pCube140
+    100124: pCube141
+    100126: pCube142
+    100128: pCube143
+    100130: pCube144
+    100132: pCube145
+    100134: pCube146
+    100136: pCube147
+    100138: pCube148
+    100140: pCube149
+    100142: Garden_Prop_Terrace_1_Beams
+    100144: Garden_Prop_Terrace_1_Beams_Holder
+    100146: Garden_Prop_Terrace_1_Celosia_Front1
+    100148: Garden_Prop_Terrace_1_Celosia_Front2
+    100150: Garden_Prop_Terrace_1_Celosia_Joint
+    100152: Garden_Prop_Terrace_1_Celosia_Side1
+    100154: Garden_Prop_Terrace_1_Celosia_Side2
+    100156: Garden_Prop_Terrace_1_Handrails
+    100158: Garden_Prop_Terrace_1_Handrails_Corner_Duo
+    100160: Garden_Prop_Terrace_1_Handrails_Corner_Duo2
+    100162: Garden_Prop_Terrace_1_Handrails_Corner_Mono
+    100164: Garden_Prop_Terrace_1_Handrails_Large
+    100166: Garden_Prop_Terrace_1_Handrails_Short
+    100168: Garden_Prop_Terrace_1_Handrails_Stairs
+    100170: Garden_Prop_Terrace_1_Stairs
+    100172: Garden_Prop_Terrace_1_Structure
+    400000: //RootNode
+    400002: pCube11
+    400004: pCube15
+    400006: pCube16
+    400008: pCube17
+    400010: pCube22
+    400012: pCube23
+    400014: pCube43
+    400016: pCube53
+    400018: pCube54
+    400020: pCube92
+    400022: pCube93
+    400024: pCube94
+    400026: pCube95
+    400028: pCube96
+    400030: pCube102
+    400032: pCube103
+    400034: pCube108
+    400036: pCube97
+    400038: pCube98
+    400040: transform32
+    400042: transform33
+    400044: pCube109
+    400046: pCube110
+    400048: pCube112
+    400050: pCube115
+    400052: pCube116
+    400054: pCube117
+    400056: pCube118
+    400058: pCube119
+    400060: pCube119 1
+    400062: pCube119 2
+    400064: pCube120
+    400066: pCube120 1
+    400068: pCube120 2
+    400070: pCube121
+    400072: pCube121 1
+    400074: pCube121 2
+    400076: pCube122
+    400078: pCube122 1
+    400080: pCube122 2
+    400082: pCube123
+    400084: pCube124
+    400086: pCube125
+    400088: pCube125 1
+    400090: pCube126
+    400092: pCube126 1
+    400094: pCube127
+    400096: pCube127 1
+    400098: pCube128
+    400100: pCube128 1
+    400102: pCube129
+    400104: pCube130
+    400106: pCube131
+    400108: pCube132
+    400110: pCube133
+    400112: pCube134
+    400114: pCube135
+    400116: pCube136
+    400118: pCube137
+    400120: pCube139
+    400122: pCube140
+    400124: pCube141
+    400126: pCube142
+    400128: pCube143
+    400130: pCube144
+    400132: pCube145
+    400134: pCube146
+    400136: pCube147
+    400138: pCube148
+    400140: pCube149
+    400142: Garden_Prop_Terrace_1_Beams
+    400144: Garden_Prop_Terrace_1_Beams_Holder
+    400146: Garden_Prop_Terrace_1_Celosia_Front1
+    400148: Garden_Prop_Terrace_1_Celosia_Front2
+    400150: Garden_Prop_Terrace_1_Celosia_Joint
+    400152: Garden_Prop_Terrace_1_Celosia_Side1
+    400154: Garden_Prop_Terrace_1_Celosia_Side2
+    400156: Garden_Prop_Terrace_1_Handrails
+    400158: Garden_Prop_Terrace_1_Handrails_Corner_Duo
+    400160: Garden_Prop_Terrace_1_Handrails_Corner_Duo2
+    400162: Garden_Prop_Terrace_1_Handrails_Corner_Mono
+    400164: Garden_Prop_Terrace_1_Handrails_Large
+    400166: Garden_Prop_Terrace_1_Handrails_Short
+    400168: Garden_Prop_Terrace_1_Handrails_Stairs
+    400170: Garden_Prop_Terrace_1_Stairs
+    400172: Garden_Prop_Terrace_1_Structure
+    2100000: phong1
+    2300000: //RootNode
+    2300002: pCube11
+    2300004: pCube15
+    2300006: pCube16
+    2300008: pCube17
+    2300010: pCube22
+    2300012: pCube23
+    2300014: pCube43
+    2300016: pCube53
+    2300018: pCube54
+    2300020: pCube92
+    2300022: pCube93
+    2300024: pCube94
+    2300026: pCube95
+    2300028: pCube96
+    2300030: pCube102
+    2300032: pCube103
+    2300034: pCube108
+    2300036: pCube109
+    2300038: pCube112
+    2300040: pCube115
+    2300042: pCube116
+    2300044: pCube117
+    2300046: pCube118
+    2300048: pCube119
+    2300050: pCube119 1
+    2300052: pCube119 2
+    2300054: pCube120
+    2300056: pCube120 1
+    2300058: pCube120 2
+    2300060: pCube121
+    2300062: pCube121 1
+    2300064: pCube121 2
+    2300066: pCube122
+    2300068: pCube122 1
+    2300070: pCube122 2
+    2300072: pCube123
+    2300074: pCube124
+    2300076: pCube125
+    2300078: pCube125 1
+    2300080: pCube126
+    2300082: pCube126 1
+    2300084: pCube127
+    2300086: pCube127 1
+    2300088: pCube128
+    2300090: pCube128 1
+    2300092: pCube129
+    2300094: pCube130
+    2300096: pCube131
+    2300098: pCube132
+    2300100: pCube133
+    2300102: pCube134
+    2300104: pCube135
+    2300106: pCube136
+    2300108: pCube137
+    2300110: pCube139
+    2300112: pCube140
+    2300114: pCube141
+    2300116: pCube142
+    2300118: pCube143
+    2300120: pCube144
+    2300122: pCube145
+    2300124: pCube146
+    2300126: pCube147
+    2300128: pCube148
+    2300130: pCube149
+    2300132: Garden_Prop_Terrace_1_Beams
+    2300134: Garden_Prop_Terrace_1_Beams_Holder
+    2300136: Garden_Prop_Terrace_1_Celosia_Front1
+    2300138: Garden_Prop_Terrace_1_Celosia_Front2
+    2300140: Garden_Prop_Terrace_1_Celosia_Joint
+    2300142: Garden_Prop_Terrace_1_Celosia_Side1
+    2300144: Garden_Prop_Terrace_1_Celosia_Side2
+    2300146: Garden_Prop_Terrace_1_Handrails_Corner_Duo
+    2300148: Garden_Prop_Terrace_1_Handrails_Corner_Duo2
+    2300150: Garden_Prop_Terrace_1_Handrails_Corner_Mono
+    2300152: Garden_Prop_Terrace_1_Handrails_Large
+    2300154: Garden_Prop_Terrace_1_Handrails_Short
+    2300156: Garden_Prop_Terrace_1_Handrails_Stairs
+    2300158: Garden_Prop_Terrace_1_Stairs
+    2300160: Garden_Prop_Terrace_1_Structure
+    3300000: //RootNode
+    3300002: pCube11
+    3300004: pCube15
+    3300006: pCube16
+    3300008: pCube17
+    3300010: pCube22
+    3300012: pCube23
+    3300014: pCube43
+    3300016: pCube53
+    3300018: pCube54
+    3300020: pCube92
+    3300022: pCube93
+    3300024: pCube94
+    3300026: pCube95
+    3300028: pCube96
+    3300030: pCube102
+    3300032: pCube103
+    3300034: pCube108
+    3300036: pCube109
+    3300038: pCube112
+    3300040: pCube115
+    3300042: pCube116
+    3300044: pCube117
+    3300046: pCube118
+    3300048: pCube119
+    3300050: pCube119 1
+    3300052: pCube119 2
+    3300054: pCube120
+    3300056: pCube120 1
+    3300058: pCube120 2
+    3300060: pCube121
+    3300062: pCube121 1
+    3300064: pCube121 2
+    3300066: pCube122
+    3300068: pCube122 1
+    3300070: pCube122 2
+    3300072: pCube123
+    3300074: pCube124
+    3300076: pCube125
+    3300078: pCube125 1
+    3300080: pCube126
+    3300082: pCube126 1
+    3300084: pCube127
+    3300086: pCube127 1
+    3300088: pCube128
+    3300090: pCube128 1
+    3300092: pCube129
+    3300094: pCube130
+    3300096: pCube131
+    3300098: pCube132
+    3300100: pCube133
+    3300102: pCube134
+    3300104: pCube135
+    3300106: pCube136
+    3300108: pCube137
+    3300110: pCube139
+    3300112: pCube140
+    3300114: pCube141
+    3300116: pCube142
+    3300118: pCube143
+    3300120: pCube144
+    3300122: pCube145
+    3300124: pCube146
+    3300126: pCube147
+    3300128: pCube148
+    3300130: pCube149
+    3300132: Garden_Prop_Terrace_1_Beams
+    3300134: Garden_Prop_Terrace_1_Beams_Holder
+    3300136: Garden_Prop_Terrace_1_Celosia_Front1
+    3300138: Garden_Prop_Terrace_1_Celosia_Front2
+    3300140: Garden_Prop_Terrace_1_Celosia_Joint
+    3300142: Garden_Prop_Terrace_1_Celosia_Side1
+    3300144: Garden_Prop_Terrace_1_Celosia_Side2
+    3300146: Garden_Prop_Terrace_1_Handrails_Corner_Duo
+    3300148: Garden_Prop_Terrace_1_Handrails_Corner_Duo2
+    3300150: Garden_Prop_Terrace_1_Handrails_Corner_Mono
+    3300152: Garden_Prop_Terrace_1_Handrails_Large
+    3300154: Garden_Prop_Terrace_1_Handrails_Short
+    3300156: Garden_Prop_Terrace_1_Handrails_Stairs
+    3300158: Garden_Prop_Terrace_1_Stairs
+    3300160: Garden_Prop_Terrace_1_Structure
+    4300000: Garden_Prop_Terrace_1
+    4300002: pCube43
+    4300004: pCube23
+    4300006: pCube22
+    4300008: pCube17
+    4300010: pCube15
+    4300012: pCube16
+    4300014: pCube11
+    4300016: pCube53
+    4300018: pCube54
+    4300020: pCube95
+    4300022: pCube96
+    4300024: pCube94
+    4300026: pCube93
+    4300028: pCube92
+    4300030: pCube103
+    4300032: pCube108
+    4300034: pCube102
+    4300036: pCube109
+    4300038: pCube129
+    4300040: pCube119
+    4300042: pCube120
+    4300044: pCube121
+    4300046: pCube122
+    4300048: pCube125
+    4300050: pCube126
+    4300052: pCube127
+    4300054: pCube128
+    4300056: pCube130
+    4300058: pCube131
+    4300060: pCube132
+    4300062: pCube133
+    4300064: pCube134
+    4300066: pCube135
+    4300068: pCube136
+    4300070: pCube137
+    4300072: pCube139
+    4300074: pCube140
+    4300076: pCube141
+    4300078: pCube142
+    4300080: pCube143
+    4300082: pCube144
+    4300084: pCube145
+    4300086: pCube124
+    4300088: pCube119
+    4300090: pCube120
+    4300092: pCube121
+    4300094: pCube122
+    4300096: pCube125
+    4300098: pCube126
+    4300100: pCube127
+    4300102: pCube128
+    4300104: pCube123
+    4300106: pCube119
+    4300108: pCube120
+    4300110: pCube121
+    4300112: pCube122
+    4300114: pCube118
+    4300116: pCube117
+    4300118: pCube116
+    4300120: pCube115
+    4300122: pCube112
+    4300124: pCube147
+    4300126: pCube148
+    4300128: pCube149
+    4300130: pCube146
+    4300132: Garden_Prop_Terrace_1_Stairs
+    4300134: Garden_Prop_Terrace_1_Structure
+    4300136: Garden_Prop_Terrace_1_Celosia_Side2
+    4300138: Garden_Prop_Terrace_1_Celosia_Side1
+    4300140: Garden_Prop_Terrace_1_Celosia_Joint
+    4300142: Garden_Prop_Terrace_1_Celosia_Front2
+    4300144: Garden_Prop_Terrace_1_Celosia_Front1
+    4300146: Garden_Prop_Terrace_1_Beams_Holder
+    4300148: Garden_Prop_Terrace_1_Beams
+    4300150: Garden_Prop_Terrace_1_Handrails_Corner_Duo2
+    4300152: Garden_Prop_Terrace_1_Handrails_Corner_Duo
+    4300154: Garden_Prop_Terrace_1_Handrails_Corner_Mono
+    4300156: Garden_Prop_Terrace_1_Handrails_Stairs
+    4300158: Garden_Prop_Terrace_1_Handrails_Short
+    4300160: Garden_Prop_Terrace_1_Handrails_Large
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
