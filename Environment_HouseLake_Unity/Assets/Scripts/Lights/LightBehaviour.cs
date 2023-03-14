@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+// using UnityEditor;
 
 //THIS SCRIPT IS FOR THE SWITCH; TRIGGERS LIGHTS ON/OFF
 public class LightBehaviour : MonoBehaviour {
